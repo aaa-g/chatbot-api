@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chatbot API</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+    h1 { color: #333; }
+    p { color: #555; }
+    code { background: #f0f0f0; padding: 2px 4px; border-radius: 3px; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Chatbot API</h1>
+  <p>This API is hosted on Vercel as a Python serverless function.</p>
+  <p>Use the following endpoint for testing:</p>
+  <code>POST /api/chatbot</code>
+  <p>Send JSON like:</p>
+  <code>{"message": "Hello AI"}</code>
+  <p>Example with <strong>curl</strong>:</p>
+  <code>curl -X POST https://YOUR_PROJECT.vercel.app/api/chatbot -H "Content-Type: application/json" -d '{"message": "Hello AI"}'</code>
+</body>
+</html>
